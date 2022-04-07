@@ -14,6 +14,7 @@ vacation_cities["Winter"].append("Toronto")
 print("New winter location added:", vacation_cities["Winter"][1])
 
 # function to return a vacay destination based on season
+# randomly select an index from the respective season's list 
 def destination_find():
     curr_season = ""
     choice = ""
